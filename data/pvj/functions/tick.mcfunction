@@ -1,6 +1,12 @@
 #Wenn jemand gestorben ist, wird die Funtion tellyoudied ausgeführt
 execute if entity @a[scores={PV_money_death=1}] run function pvj:tellyoudied
 
+#Banksystem
+scoreboard players enable @a PV_Banksystem
+scoreboard players enable @a bankChatGui
+execute if entity @a[scores={PV_Banksystem=1..}] run function pvj:banksystem
+execute if entity @a[scores={bankChatGui=1..}] run function pvj:banksystem
+
 
 #Sum up Mineur einzelne Blöcke zu ganzem
 execute as @a run scoreboard players operation @s PV_M_total += @s PV_M_stone

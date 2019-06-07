@@ -2,6 +2,12 @@
 scoreboard objectives add Portemonnaie dummy
 scoreboard objectives add PV_money_death deathCount
 
+#Bankkonti
+scoreboard objectives add bankChatGui trigger
+scoreboard objectives add PV_Banksystem trigger
+scoreboard objectives add Basiskonto dummy
+scoreboard objectives add Sparkonto dummy
+
 #Mineur
 scoreboard objectives add PV_M_total dummy
 

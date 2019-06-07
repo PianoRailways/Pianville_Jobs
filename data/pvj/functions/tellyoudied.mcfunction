@@ -5,4 +5,3 @@ tellraw @a[scores={PV_money_death=1..}] ["",{"text":"[","color":"green"},{"text"
 
 ###reset von Toden und Portemonnaie
 scoreboard players reset @a[scores={PV_money_death=1..}] PV_money_death
-scoreboard players reset @a[scores={PV_money_death=1..}] Portemonnaie
